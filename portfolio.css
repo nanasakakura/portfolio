@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	font-size: 20px;
+	font-family:font-family: 'Open Sans', sans-serif;
+	margin-left: 40px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.red{
+	background: linear-gradient(transparent 0%, #FF9393 0%);
+}
+.title p:nth-of-type(1){
+    font-size: 1.1em;
+	margin-top: 50px;
+	font-weight: 700;	
+}
+
+.title p:nth-of-type(2){
+	font-size: 1.1em;
+	margin-top: 30px;
+}
+
+.currently p:nth-of-type(1){
+	font-size: 1.1em;
+	margin-top: 40px;
+	font-weight: 700;
+}
+
+.currently p{
+	font-size: 0.8em;
+	margin-top: 12px;
+}
+
+.currently a{
+	background: linear-gradient(transparent 0%, #ffff66 0%);
+}
+
+@media screen and (max-width:700px){
+	body{
+		margin: 0 auto;
+		width: 90%;
+	}
+
+}
