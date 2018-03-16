@@ -16,27 +16,27 @@
 
 <div class="currently">
 	<p>Currently I'm</p>
-	<p>― working for <a href="http://seethelight.jp/" target="_blank">SEETHELIGHT</a> as a photographer and making product web pages and contents pages etc.</p>
+	<p>― working for <a href="http://seethelight.jp/" target="_blank" class="line">SEETHELIGHT</a> as a photographer and making product web pages and contents pages etc.</p>
 </div>
 
 <div class="currently">
 	<p>Works - Photography</p>
-	<p>― My photography works are <a href="http://vsco.co/nanaskkr/images/1" target="_blank">Here</a> (I love photography actually.)</p>
+	<p>― My photography works are <a href="http://vsco.co/nanaskkr/images/1" target="_blank" class="line">Here</a> (I love photography actually.)</p>
 </div>
 
 <div class="currently">
 	<p>Works - Graffic design</p>
-	<p>― leaflet for <a href="http://vsco.co/nanaskkr/journal/leaflet-for-pizza-place" target="_blank">pizza</a> place</p>
-	<p>― if I opened <a href="http://vsco.co/nanaskkr/journal/if-i-opened-ghee-shop" target="_blank">GHEE</a> shop</p>
+	<p>― leaflet for <a href="http://vsco.co/nanaskkr/journal/leaflet-for-pizza-place" target="_blank" class="line">pizza</a> place</p>
+	<p>― if I opened <a href="http://vsco.co/nanaskkr/journal/if-i-opened-ghee-shop" target="_blank" class="line">GHEE</a> shop</p>
 </div>
 
 <div class="currently">
 	<p>Works - Web page</p>
-	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/cityflavor/cityflavor.html" target="_blank">City flavor </a></p>
-	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/muffler.html" target="_blank">How to wear mufflers </a></p>
-	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/outerKnit.html" target="_blank">Outer and Knit </a></p>
-	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/wintertospring.html" target="_blank">Coordinate samples for Winter to Spring</a></p>
-	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/summer-goods.html" target="_blank">Suumer goods collection</a></p>
+	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/cityflavor/cityflavor.html" target="_blank" class="line">City flavor </a></p>
+	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/muffler.html" target="_blank" class="line">How to wear mufflers </a></p>
+	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/outerKnit.html" target="_blank" class="line">Outer and Knit </a></p>
+	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/wintertospring.html" target="_blank" class="line">Coordinate samples for Winter to Spring</a></p>
+	<p>― <a href="https://www.rakuten.ne.jp/gold/soyous/hy/summer-goods.html" target="_blank" class="line">Suumer goods collection</a></p>
 </div>
 
 	
@@ -47,12 +47,14 @@
 	<p>Thank you.</p>
 </div>
 
-	<!--
-<div class="currently">
-	<p>Works - Photography</p>
-	<p>- working for <a href="http://seethelight.jp/" target="_blank">SEETHELIGHT</a> as a photographer and making <span class="red">product</span> web page and contents page etc.</p>
-</div>
--->
-
+    <script  src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+    <script>
+        $(function(){
+            $(".currently").on('inview',function(){
+                $(this).addClass('marker');
+            })
+        })
+    </script>
 </body>
 </html>
